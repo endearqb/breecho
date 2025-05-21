@@ -48,6 +48,7 @@ add_page_title(layout="wide")
 
 hide_pages(["Thank you"])
 # streamlit run dwaweb.py
+# 以下计算代码来自https://gitee.com/wang-nan-watertreatment/BioReactor
 def V_D_over_V_BB_F(f_s, f_A, f_COD, f_B, S_orgN_AN, Y_COD_abb, b, C_0, C_S,
            S_NO3_ZB, miu_A_max, 
            Q_d_Knoz, C_COD_ZB, C_BOD5_ZB, C_P_ZB, C_TN_ZB, C_SS_ZB, T_C, 
