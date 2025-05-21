@@ -4,14 +4,15 @@
 在breecho.cn上部署的使用streamlit的包含计算内容的部分代码
 
 #### 软件架构
-软件架构说明
+Python
 
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  安装python
+2.  安装依赖，等我有空整理
+3.  准备apikey和apibase
+4.  streamlit run Breecho.py
 
 #### 使用说明
 
