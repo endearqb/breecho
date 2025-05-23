@@ -518,7 +518,7 @@ def main():
                             f"相关性保持在 {min(consistent['correlations'].values()):.3f} 以上"
                         )
                 
-                            # AI 洞察
+        # AI 洞察
         st.subheader("🤖 AI 洞察")
         if st.session_state.analysis_complete == True:
             with st.spinner("AI正在分析数据..."):
