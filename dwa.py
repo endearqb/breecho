@@ -7,9 +7,6 @@ import streamlit_shadcn_ui as ui
 import pandas as pd
 
 
-# 设置全局字体
-# mpl.rc('font', family='Times New Roman', size=12)  # 可以选择你系统支持的字体
-
 # 设置页面配置
 st.set_page_config(
     page_title="微风轻语BreeCho",  # 自定义页面标题
