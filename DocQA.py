@@ -827,39 +827,6 @@ def convert_qa_to_markdown(qa_results: List[Dict], include_reference: bool = Tru
 
 from typing import List, Tuple, Union
 
-# def parse_triples(text: Union[str, List, dict]) -> List[Tuple[str, str, str]]:
-#     """
-#     解析文本中的三元组
-    
-#     Args:
-#         text: 输入文本，可以是字符串、列表或字典
-        
-#     Returns:
-#         List[Tuple[str, str, str]]: 解析出的三元组列表
-#     """
-#     # 确保输入是字符串类型
-#     if isinstance(text, (list, dict)):
-#         text = str(text)
-    
-#     if not isinstance(text, str):
-#         raise TypeError(f"Expected string input, got {type(text)}")
-    
-#     try:
-#         # 使用正则表达式提取三元组
-#         pattern = r'\d+\.\s*\((.*?),\s*(.*?),\s*(.*?)\)'
-#         triples = re.findall(pattern, text)
-        
-#         # 验证提取结果
-#         if not triples:
-#             print("Warning: No triples found in the input text")
-#             return []
-            
-#         return triples
-#     except Exception as e:
-#         print(f"Error parsing triples: {e}")
-#         return []
-    
-
 
 def clean_node_id(text: str) -> str:
     """
