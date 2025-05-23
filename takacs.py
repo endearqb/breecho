@@ -26,24 +26,11 @@ hide_streamlit_style = """
 
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-# custom_css = """
-# <style>
-# @font-face {
-#     font-family: 'LXGW WenKai GB';
-#     src: url('/static/LXGWWenKaiGB.ttf') format('truetype');
-# }
-# body, p, h1, h2, h3, h4, h5, h6, div {
-#     font-family: 'LXGW WenKai GB', serif !important;
-# }
-# </style>
-# """
-
-# st.markdown(custom_css, unsafe_allow_html=True)
 
 add_page_title(layout="wide")
 
 hide_pages(["Thank you"])
-# 定义污泥通量分布函数 Vesilind的单指数沉降速率模型+扩散模型
+
 # 定义污泥通量分布函数 Takacs双指数模型
 def delta_Takacs(C, q_out, V_zs, r_h, r_p, M, v0):
     C = C.unsqueeze(1).repeat(1, M)
