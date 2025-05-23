@@ -6,7 +6,6 @@ import pandas as pd
 from io import BytesIO
 
 # 设置页面基本配置
-# 设置页面配置
 st.set_page_config(
     page_title="微风轻语BreeCho",  # 自定义页面标题
     page_icon="💭",  # 可以是一个URL链接，或者是emoji表情符号
